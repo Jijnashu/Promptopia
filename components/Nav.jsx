@@ -99,7 +99,7 @@ export default function Nav() {
                   type="button"
                   onClick={() => {
                     setToggleDropDown(false);
-                    signOut;
+                    signOut();
                   }}
                   className="mt-5 w-full black_btn"
                 >
